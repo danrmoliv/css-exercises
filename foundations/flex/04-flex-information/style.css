@@ -10,6 +10,9 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  display: flex;
+  justify-content: center;
+  margin:32px;
 }
 
 /* do not edit this footer */
@@ -24,3 +27,26 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+.plants-data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 52px;
+  margin: 52px;
+}
+
+.block-plant {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-basis: 200px;
+}
+
+.text {
+  margin-top: 10px;
+  text-align: center;
+  text-justify: center;
+}
+
